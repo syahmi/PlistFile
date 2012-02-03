@@ -10,4 +10,8 @@
 
 @interface PFViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UILabel *titleLabel;
+
+- (IBAction)statesBtnPressed:(id)sender;
+
 @end
